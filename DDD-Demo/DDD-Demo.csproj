@@ -7,8 +7,18 @@
         <RootNamespace>DDD_Demo</RootNamespace>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\DDD-Demo.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.3.4" />
+        <PackageReference Include="Volo.Abp.Autofac" Version="8.3.4" />
+        <PackageReference Include="Volo.Abp.Swashbuckle" Version="8.3.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DDD-Demo.Application\DDD-Demo.Application.csproj" />
     </ItemGroup>
 
 </Project>

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD-Demo", "DDD-Demo.csproj", "{A0DCA864-C1CF-42DF-A317-A3824B5D6242}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD-Demo.Application", "..\DDD-Demo.Application\DDD-Demo.Application.csproj", "{22161AC3-2E7D-4A87-9842-1017175FC911}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A0DCA864-C1CF-42DF-A317-A3824B5D6242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DCA864-C1CF-42DF-A317-A3824B5D6242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DCA864-C1CF-42DF-A317-A3824B5D6242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22161AC3-2E7D-4A87-9842-1017175FC911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22161AC3-2E7D-4A87-9842-1017175FC911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22161AC3-2E7D-4A87-9842-1017175FC911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22161AC3-2E7D-4A87-9842-1017175FC911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
